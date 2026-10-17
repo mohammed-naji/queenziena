@@ -1,213 +1,208 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="A little storybook kingdom made with love for Ziena."
-    />
-    <meta name="theme-color" content="#fffaf6" />
-    <title>Queen Ziena — A Little Kingdom of Wonder</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <header class="site-header">
-      <a class="wordmark" href="#home" aria-label="Queen Ziena, home">
-        <span class="wordmark-crown" aria-hidden="true">♕</span>
-        <span>Queen <strong>Ziena</strong></span>
-      </a>
 
-      <button
-        class="menu-toggle"
-        type="button"
-        aria-label="Open navigation"
-        aria-expanded="false"
-        aria-controls="site-nav"
-      >
-        <span></span>
-        <span></span>
-      </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A little storybook kingdom made with love for Ziena." />
+  <meta name="theme-color" content="#fffaf6" />
+  <title>Queen Ziena — A Little Kingdom of Wonder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
 
-      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
-        <a href="#story">Her story</a>
-        <a href="#favorites">Little favorites</a>
-        <a href="#kingdom">The kingdom</a>
-        <a class="nav-wish" href="#wish">Send a wish <span aria-hidden="true">✧</span></a>
-      </nav>
-    </header>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Queen Ziena, home">
+      <span class="wordmark-crown" aria-hidden="true">♕</span>
+      <span>Queen <strong>Ziena</strong></span>
+    </a>
 
-    <main>
-      <section class="hero" id="home" aria-labelledby="hero-title">
-        <div class="hero-glow" aria-hidden="true"></div>
-        <div class="hero-copy">
-          <p class="eyebrow"><span></span> A little world made just for her <span></span></p>
-          <h1 id="hero-title">Once upon a time,<br />there was <em>Ziena.</em></h1>
-          <p class="hero-description">
-            A bright little heart, a boundless imagination, and a kingdom of
-            wonder that grows a little more magical every day.
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"
+      aria-controls="site-nav">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#story">Her story</a>
+      <a href="#favorites">Little favorites</a>
+      <a href="#kingdom">The kingdom</a>
+      <a class="nav-wish" href="#wish">Send a wish <span aria-hidden="true">✧</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> A little world made just for her <span></span></p>
+        <h1 id="hero-title">Once upon a time,<br />there was <em>Ziena Mohammed.</em></h1>
+        <p class="hero-description">
+          A bright little heart, a boundless imagination, and a kingdom of
+          wonder that grows a little more magical every day.
+        </p>
+        <a class="button button-primary" href="#story">
+          Step into her story <span aria-hidden="true">↗</span>
+        </a>
+        <div class="hero-note">
+          <span class="note-star" aria-hidden="true">✳</span>
+          <span>Her very own happily ever after</span>
+        </div>
+      </div>
+
+      <div class="castle-scene" aria-label="Illustration of a dreamy pink castle">
+        <span class="scene-star star-one" aria-hidden="true">✦</span>
+        <span class="scene-star star-two" aria-hidden="true">✧</span>
+        <span class="scene-star star-three" aria-hidden="true">✦</span>
+        <span class="scene-star star-four" aria-hidden="true">·</span>
+        <span class="scene-cloud cloud-one" aria-hidden="true"></span>
+        <span class="scene-cloud cloud-two" aria-hidden="true"></span>
+        <svg class="castle" viewBox="0 0 560 520" role="img" aria-labelledby="castle-title">
+          <title id="castle-title">A rose-pink fairytale castle beneath a crescent moon</title>
+          <defs>
+            <linearGradient id="castleWall" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0" stop-color="#fff4e9" />
+              <stop offset="1" stop-color="#f0c8c9" />
+            </linearGradient>
+            <linearGradient id="castleRoof" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0" stop-color="#b98b9b" />
+              <stop offset="1" stop-color="#815f7a" />
+            </linearGradient>
+            <linearGradient id="castleDoor" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0" stop-color="#bd8a83" />
+              <stop offset="1" stop-color="#8c626e" />
+            </linearGradient>
+          </defs>
+          <ellipse cx="277" cy="455" rx="232" ry="30" fill="#b28c91" opacity=".16" />
+          <path d="M92 430V216h102v214M365 430V216h102v214" fill="url(#castleWall)" />
+          <path d="M181 430V157h201v273" fill="url(#castleWall)" />
+          <path d="M168 158h226v22H168z" fill="#dfb6b2" />
+          <path d="M81 224h124v17H81zM355 224h124v17H355z" fill="#e0b9b4" />
+          <path d="M80 216v-97l62-63 63 63v97zM355 216v-97l62-63 62 63v97z" fill="url(#castleRoof)" />
+          <path d="M164 157V72l117-64 117 64v85z" fill="url(#castleRoof)" />
+          <path d="M70 122 142 47l71 75h-22l-49-51-49 51zM345 122l72-75 71 75h-22l-49-51-49 51z" fill="#c49ba4" />
+          <path d="M151 79 281 8l130 71h-29L281 32 181 87z" fill="#c49ba4" />
+          <path d="M143 47V24h-7V13h18v23zM408 47V24h-7V13h18v23zM273 11V0h17v16z" fill="#a97d8e" />
+          <path d="M245 430v-67a36 36 0 0 1 72 0v67" fill="url(#castleDoor)" />
+          <circle cx="302" cy="386" r="3.5" fill="#f4d798" />
+          <g fill="#8f697c">
+            <path d="M122 216v-30a14 14 0 0 1 28 0v30zM397 216v-30a14 14 0 0 1 28 0v30z" />
+            <path d="M232 157v-27a14 14 0 0 1 28 0v27zM302 157v-27a14 14 0 0 1 28 0v27z" />
+            <path d="M121 327v-27a13 13 0 0 1 26 0v27zM411 327v-27a13 13 0 0 1 26 0v27z" />
+            <path d="M194 275v-30a14 14 0 0 1 28 0v30zM342 275v-30a14 14 0 0 1 28 0v30z" />
+          </g>
+          <g fill="#f8d99e">
+            <path d="M126 205v-19a10 10 0 0 1 20 0v19zM401 205v-19a10 10 0 0 1 20 0v19z" />
+            <path d="M235 148v-18a11 11 0 0 1 22 0v18zM305 148v-18a11 11 0 0 1 22 0v18z" />
+            <path d="M197 266v-21a11 11 0 0 1 22 0v21zM345 266v-21a11 11 0 0 1 22 0v21z" />
+          </g>
+          <path d="M62 432h433" stroke="#c4a49b" stroke-width="4" stroke-linecap="round" />
+          <path d="M78 432c26-24 41-25 64 0M427 432c25-22 43-22 64 0" fill="none" stroke="#87a087" stroke-width="5"
+            stroke-linecap="round" />
+        </svg>
+        <div class="castle-caption"><span>✧</span> Somewhere in a storybook <span>✧</span></div>
+      </div>
+
+      <a class="scroll-cue" href="#story"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="story-section section-wrap" id="story">
+      <div class="section-mark"><span>01</span><i></i><span>HER STORY</span></div>
+      <div class="story-grid">
+        <div class="story-intro">
+          <p class="eyebrow eyebrow-muted">A name fit for a fairytale</p>
+          <h2>Meet the girl<br />behind the <em>crown.</em></h2>
+        </div>
+        <div class="story-copy">
+          <span class="quote-mark" aria-hidden="true">“</span>
+          <p>
+            Every kingdom begins with a little wonder. This one belongs to
+            Ziena—a place for big dreams, tiny treasures, and all the
+            beautiful moments that make her story uniquely hers.
           </p>
-          <a class="button button-primary" href="#story">
-            Step into her story <span aria-hidden="true">↗</span>
-          </a>
-          <div class="hero-note">
-            <span class="note-star" aria-hidden="true">✳</span>
-            <span>Her very own happily ever after</span>
-          </div>
+          <p class="story-signoff">With all the love in the world <span>♡</span></p>
         </div>
+      </div>
+    </section>
 
-        <div class="castle-scene" aria-label="Illustration of a dreamy pink castle">
-          <span class="scene-star star-one" aria-hidden="true">✦</span>
-          <span class="scene-star star-two" aria-hidden="true">✧</span>
-          <span class="scene-star star-three" aria-hidden="true">✦</span>
-          <span class="scene-star star-four" aria-hidden="true">·</span>
-          <span class="scene-cloud cloud-one" aria-hidden="true"></span>
-          <span class="scene-cloud cloud-two" aria-hidden="true"></span>
-          <svg class="castle" viewBox="0 0 560 520" role="img" aria-labelledby="castle-title">
-            <title id="castle-title">A rose-pink fairytale castle beneath a crescent moon</title>
-            <defs>
-              <linearGradient id="castleWall" x1="0" x2="1" y1="0" y2="1">
-                <stop offset="0" stop-color="#fff4e9" />
-                <stop offset="1" stop-color="#f0c8c9" />
-              </linearGradient>
-              <linearGradient id="castleRoof" x1="0" x2="1" y1="0" y2="1">
-                <stop offset="0" stop-color="#b98b9b" />
-                <stop offset="1" stop-color="#815f7a" />
-              </linearGradient>
-              <linearGradient id="castleDoor" x1="0" x2="0" y1="0" y2="1">
-                <stop offset="0" stop-color="#bd8a83" />
-                <stop offset="1" stop-color="#8c626e" />
-              </linearGradient>
-            </defs>
-            <ellipse cx="277" cy="455" rx="232" ry="30" fill="#b28c91" opacity=".16" />
-            <path d="M92 430V216h102v214M365 430V216h102v214" fill="url(#castleWall)" />
-            <path d="M181 430V157h201v273" fill="url(#castleWall)" />
-            <path d="M168 158h226v22H168z" fill="#dfb6b2" />
-            <path d="M81 224h124v17H81zM355 224h124v17H355z" fill="#e0b9b4" />
-            <path d="M80 216v-97l62-63 63 63v97zM355 216v-97l62-63 62 63v97z" fill="url(#castleRoof)" />
-            <path d="M164 157V72l117-64 117 64v85z" fill="url(#castleRoof)" />
-            <path d="M70 122 142 47l71 75h-22l-49-51-49 51zM345 122l72-75 71 75h-22l-49-51-49 51z" fill="#c49ba4" />
-            <path d="M151 79 281 8l130 71h-29L281 32 181 87z" fill="#c49ba4" />
-            <path d="M143 47V24h-7V13h18v23zM408 47V24h-7V13h18v23zM273 11V0h17v16z" fill="#a97d8e" />
-            <path d="M245 430v-67a36 36 0 0 1 72 0v67" fill="url(#castleDoor)" />
-            <circle cx="302" cy="386" r="3.5" fill="#f4d798" />
-            <g fill="#8f697c">
-              <path d="M122 216v-30a14 14 0 0 1 28 0v30zM397 216v-30a14 14 0 0 1 28 0v30z" />
-              <path d="M232 157v-27a14 14 0 0 1 28 0v27zM302 157v-27a14 14 0 0 1 28 0v27z" />
-              <path d="M121 327v-27a13 13 0 0 1 26 0v27zM411 327v-27a13 13 0 0 1 26 0v27z" />
-              <path d="M194 275v-30a14 14 0 0 1 28 0v30zM342 275v-30a14 14 0 0 1 28 0v30z" />
-            </g>
-            <g fill="#f8d99e">
-              <path d="M126 205v-19a10 10 0 0 1 20 0v19zM401 205v-19a10 10 0 0 1 20 0v19z" />
-              <path d="M235 148v-18a11 11 0 0 1 22 0v18zM305 148v-18a11 11 0 0 1 22 0v18z" />
-              <path d="M197 266v-21a11 11 0 0 1 22 0v21zM345 266v-21a11 11 0 0 1 22 0v21z" />
-            </g>
-            <path d="M62 432h433" stroke="#c4a49b" stroke-width="4" stroke-linecap="round" />
-            <path d="M78 432c26-24 41-25 64 0M427 432c25-22 43-22 64 0" fill="none" stroke="#87a087" stroke-width="5" stroke-linecap="round" />
-          </svg>
-          <div class="castle-caption"><span>✧</span> Somewhere in a storybook <span>✧</span></div>
-        </div>
-
-        <a class="scroll-cue" href="#story"><span></span> Scroll to explore</a>
-      </section>
-
-      <section class="story-section section-wrap" id="story">
-        <div class="section-mark"><span>01</span><i></i><span>HER STORY</span></div>
-        <div class="story-grid">
-          <div class="story-intro">
-            <p class="eyebrow eyebrow-muted">A name fit for a fairytale</p>
-            <h2>Meet the girl<br />behind the <em>crown.</em></h2>
+    <section class="favorites-section" id="favorites">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div>
+            <div class="section-mark"><span>02</span><i></i><span>HER LITTLE UNIVERSE</span></div>
+            <h2>Small things, <em>big magic.</em></h2>
           </div>
-          <div class="story-copy">
-            <span class="quote-mark" aria-hidden="true">“</span>
-            <p>
-              Every kingdom begins with a little wonder. This one belongs to
-              Ziena—a place for big dreams, tiny treasures, and all the
-              beautiful moments that make her story uniquely hers.
-            </p>
-            <p class="story-signoff">With all the love in the world <span>♡</span></p>
-          </div>
+          <p>A few lovely things every storybook kingdom should have.</p>
         </div>
-      </section>
-
-      <section class="favorites-section" id="favorites">
-        <div class="section-wrap">
-          <div class="section-heading">
-            <div>
-              <div class="section-mark"><span>02</span><i></i><span>HER LITTLE UNIVERSE</span></div>
-              <h2>Small things, <em>big magic.</em></h2>
-            </div>
-            <p>A few lovely things every storybook kingdom should have.</p>
-          </div>
-          <div class="favorite-grid">
-            <article class="favorite-card card-rose">
-              <span class="card-number">01 / DREAM</span>
-              <div class="favorite-illustration" aria-hidden="true">☾</div>
-              <h3>Moonlit dreams</h3>
-              <p>For wishing on the first star and dreaming without limits.</p>
-              <span class="card-sparkle" aria-hidden="true">✧</span>
-            </article>
-            <article class="favorite-card card-lilac">
-              <span class="card-number">02 / WONDER</span>
-              <div class="favorite-illustration flower" aria-hidden="true">✿</div>
-              <h3>Wildflower days</h3>
-              <p>For finding a little bit of magic in the everyday.</p>
-              <span class="card-sparkle" aria-hidden="true">✧</span>
-            </article>
-            <article class="favorite-card card-gold">
-              <span class="card-number">03 / JOY</span>
-              <div class="favorite-illustration heart" aria-hidden="true">♡</div>
-              <h3>Lots of love</h3>
-              <p>The very best treasure in the whole wide kingdom.</p>
-              <span class="card-sparkle" aria-hidden="true">✧</span>
-            </article>
-          </div>
+        <div class="favorite-grid">
+          <article class="favorite-card card-rose">
+            <span class="card-number">01 / DREAM</span>
+            <div class="favorite-illustration" aria-hidden="true">☾</div>
+            <h3>Moonlit dreams</h3>
+            <p>For wishing on the first star and dreaming without limits.</p>
+            <span class="card-sparkle" aria-hidden="true">✧</span>
+          </article>
+          <article class="favorite-card card-lilac">
+            <span class="card-number">02 / WONDER</span>
+            <div class="favorite-illustration flower" aria-hidden="true">✿</div>
+            <h3>Wildflower days</h3>
+            <p>For finding a little bit of magic in the everyday.</p>
+            <span class="card-sparkle" aria-hidden="true">✧</span>
+          </article>
+          <article class="favorite-card card-gold">
+            <span class="card-number">03 / JOY</span>
+            <div class="favorite-illustration heart" aria-hidden="true">♡</div>
+            <h3>Lots of love</h3>
+            <p>The very best treasure in the whole wide kingdom.</p>
+            <span class="card-sparkle" aria-hidden="true">✧</span>
+          </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="kingdom-section section-wrap" id="kingdom">
-        <div class="kingdom-card">
-          <span class="kingdom-orbit orbit-one" aria-hidden="true">✧</span>
-          <span class="kingdom-orbit orbit-two" aria-hidden="true">✦</span>
-          <div class="kingdom-content">
-            <p class="eyebrow">A royal reminder</p>
-            <h2>Her story is only<br />just <em>beginning.</em></h2>
-            <p>May her days be bright, her heart be kind, and her world always full of wonder.</p>
-            <a class="button button-light" href="#wish">Leave a little wish <span aria-hidden="true">♡</span></a>
-          </div>
-          <div class="kingdom-moon" aria-hidden="true">☾</div>
-          <span class="kingdom-bottom-star" aria-hidden="true">✧</span>
+    <section class="kingdom-section section-wrap" id="kingdom">
+      <div class="kingdom-card">
+        <span class="kingdom-orbit orbit-one" aria-hidden="true">✧</span>
+        <span class="kingdom-orbit orbit-two" aria-hidden="true">✦</span>
+        <div class="kingdom-content">
+          <p class="eyebrow">A royal reminder</p>
+          <h2>Her story is only<br />just <em>beginning.</em></h2>
+          <p>May her days be bright, her heart be kind, and her world always full of wonder.</p>
+          <a class="button button-light" href="#wish">Leave a little wish <span aria-hidden="true">♡</span></a>
         </div>
-      </section>
+        <div class="kingdom-moon" aria-hidden="true">☾</div>
+        <span class="kingdom-bottom-star" aria-hidden="true">✧</span>
+      </div>
+    </section>
 
-      <section class="wish-section" id="wish">
-        <div class="wish-inner">
-          <span class="wish-flower" aria-hidden="true">✿</span>
-          <p class="eyebrow eyebrow-muted">A little note for the queen</p>
-          <h2>Send Ziena a <em>wish.</em></h2>
-          <p class="wish-description">Every princess deserves a little extra sparkle.</p>
-          <button class="button button-primary wish-button" type="button">
-            Make a wish <span aria-hidden="true">✧</span>
-          </button>
-          <p class="wish-message" role="status" aria-live="polite"></p>
-        </div>
-      </section>
-    </main>
+    <section class="wish-section" id="wish">
+      <div class="wish-inner">
+        <span class="wish-flower" aria-hidden="true">✿</span>
+        <p class="eyebrow eyebrow-muted">A little note for the queen</p>
+        <h2>Send Ziena a <em>wish.</em></h2>
+        <p class="wish-description">Every princess deserves a little extra sparkle.</p>
+        <button class="button button-primary wish-button" type="button">
+          Make a wish <span aria-hidden="true">✧</span>
+        </button>
+        <p class="wish-message" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
 
-    <footer class="site-footer">
-      <a class="wordmark footer-wordmark" href="#home">
-        <span class="wordmark-crown" aria-hidden="true">♕</span>
-        <span>Queen <strong>Ziena</strong></span>
-      </a>
-      <p>Made with love, just for Ziena <span aria-hidden="true">♡</span></p>
-      <a class="back-to-top" href="#home">Back to the top ↑</a>
-    </footer>
-  </body>
+  <footer class="site-footer">
+    <a class="wordmark footer-wordmark" href="#home">
+      <span class="wordmark-crown" aria-hidden="true">♕</span>
+      <span>Queen <strong>Ziena</strong></span>
+    </a>
+    <p>Made with love, just for Ziena <span aria-hidden="true">♡</span></p>
+    <a class="back-to-top" href="#home">Back to the top ↑</a>
+  </footer>
+</body>
+
 </html>
